@@ -52,7 +52,7 @@ def fofa_search(search_data, page):
         print("正在提取" + str(yeshu) + "页")
         try:
             result = requests.get(url=urls, params=params, headers=headers, timeout=0.8).content
-            with open('../url.txt', 'a+') as f:  # 写文件
+            with open('../../hack/url.txt', 'a+') as f:  # 写文件
                 f.write(result + '\n')
                 f.close()
             soup = etree.HTML(result)
