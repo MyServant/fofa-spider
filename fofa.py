@@ -70,4 +70,4 @@ def fofa_search(search_data, page):
 if __name__ == '__main__':
     logo()
     fofa_search('"shisu.edu.cn/"', 1)
-1
+11
